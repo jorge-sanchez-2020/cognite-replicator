@@ -178,6 +178,7 @@ def replicate(
             project_src=project_src,
             replicated_runtime=replicated_runtime,
             client=client_dst,
+            dst_ts=None,
         )
     else:
         copy_events(
